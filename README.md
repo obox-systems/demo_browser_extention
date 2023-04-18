@@ -1,7 +1,7 @@
 # Google Chrome extension
 
 ## Abstract
-In this project, I developed a simple Google Chrome extension that prints the URLs of all opened tabs of the browser in the extension HTML window, when the button of the extension is presed. This extension was written in Rust and compiled to WASM to use Rust functions in Javascript module of the extension later. 
+In this project, I developed a simple Google Chrome extension that prints the URLs of all opened tabs of the browser in the extension HTML window, when the button of the extension is pressed. This extension was written in Rust and compiled to WASM to use the Rust functions in the Javascript module of the extension later. 
 
 I used a `wasm-bindgen` crate to compile functions from Rust module into a wasm file. I also used a `web-sys` crate to get the information about the URLs of all opened tabs of the browser.
 
