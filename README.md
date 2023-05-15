@@ -5,6 +5,8 @@ In this project, I developed a simple Google Chrome extension that prints the UR
 
 I used a `wasm-bindgen` crate to compile functions from Rust module into a wasm file. I also used a `web-sys` crate to get the information about the URLs of all opened tabs of the browser.
 
+It can be used to get a list of all open tabs in your browser and will be useful if you have a lot of tabs open and want to find a particular one.
+
 ## How to run
 
 1. Install [Rust](https://rustup.rs/)
@@ -23,4 +25,4 @@ wasm-pack build --target web
 
 Here is an example of extension work:
 
-![res](Image/Extension.png)
+![res](Image/tabs_gif.gif)
